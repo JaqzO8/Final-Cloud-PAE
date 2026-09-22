@@ -1,7 +1,8 @@
 # PAE
 
 La idea del software partió de un inicio mediante entrevistas hechas a alumnos, algunos docentes e incluso a la directora de la institución educativa "Amazonas (Tingo Maria)", con su apoyo y autorización, se pudo partir de una base de requisitos presentados a continuación. 
-La Plataforma de Apoyo Estudiantil (PAE) para estudiantes de quinto de secundaria y preuniversitarios, con herramientas para docentes. Integra repositorios educativos, lecciones, banco de preguntas, simulacros, comunidades, planificación y gamificación educativa.
+Este repositorio es la continuación del software realizado principalmente por los siguientes estudiantes: 
+Leonardo Aaron Pardo López, Ramos Morales Juan Angel Fabian, Queshyac Zavaleta José Alejandro, Mauricio Solorzano Amelia, Villanueva Flores Reynaldo, donde la Plataforma de Apoyo Estudiantil (PAE) está dirigida para estudiantes de quinto de secundaria y preuniversitarios, con herramientas para docentes. Integra repositorios educativos, lecciones, banco de preguntas, simulacros, comunidades, planificación y gamificación educativa.
 
 Este repositorio reúne el código disponible y la documentación de su estado real. Existe una base funcional amplia para desarrollo y demostración local. **La aceptación integral de todos los requisitos y la preparación para producción siguen pendientes.**
 

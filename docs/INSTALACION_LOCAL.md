@@ -23,8 +23,8 @@ docker compose version
 ## Descargar y configurar
 
 ```sh
-git clone https://github.com/JaqzO8/PAE-Software.git
-cd PAE-Software
+git clone https://github.com/JaqzO8/Final-Cloud-PAE.git
+cd Final-Cloud-PAE
 node scripts/setup-local.mjs
 ```
 

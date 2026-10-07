@@ -9,6 +9,7 @@ El equipo integra cambios mediante pull requests a `develop` y prepara entregas 
 | main | Base de entregas revisadas, predeterminada |
 | develop | Integración conjunta y pruebas |
 | José_Queshyac | Desarrollo personal de José |
+| Jose_Queshyac | Rama original conservada, sin acento |
 | Amelia_Mauricio | Desarrollo personal de Amelia |
 | Richard_Estela | Desarrollo personal de Richard |
 | Juan_Rengifo | Desarrollo personal de Juan |
@@ -20,8 +21,8 @@ Los nombres son exactos; el acento de José forma parte del nombre de la rama. C
 Ejemplo para José; los demás sustituyen su rama:
 
 ```sh
-git clone https://github.com/JaqzO8/PAE-Software.git
-cd PAE-Software
+git clone https://github.com/JaqzO8/Final-Cloud-PAE.git
+cd Final-Cloud-PAE
 git fetch origin
 git switch --track origin/José_Queshyac
 git merge origin/develop

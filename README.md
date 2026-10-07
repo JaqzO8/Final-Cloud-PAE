@@ -1,4 +1,4 @@
-# PAE
+# Final-Cloud-PAE
 
 La idea del software partió de un inicio mediante entrevistas hechas a alumnos, algunos docentes e incluso a la directora de la institución educativa "Amazonas (Tingo Maria)", con su apoyo y autorización, se pudo partir de una base de requisitos presentados a continuación. 
 Este repositorio es la continuación del software realizado principalmente por los siguientes estudiantes: 
@@ -16,6 +16,7 @@ Este repositorio reúne el código disponible y la documentación de su estado r
 | [Instalación local](docs/INSTALACION_LOCAL.md) | Preparación, arranque Docker, desarrollo, datos y solución de problemas |
 | [Configuración](docs/CONFIGURACION.md) | Variables, puertos, secretos, SonarQube y entornos |
 | [Arquitectura](docs/ARQUITECTURA.md) | Servicios, almacenamiento, API, flujo de datos e inventario |
+| [Comparativa de arquitectura](docs/COMPARATIVA_ARQUITECTURA.md) | Arquitectura actual y recomendada: escalabilidad, seguridad, datos, operación y plan de mejora |
 | [Validación](docs/VALIDACION.md) | Comprobaciones realizadas, resultados y límites de la evidencia |
 | [Contribución y ramas](CONTRIBUTING.md) | Trabajo personal, pull requests a develop y entregas a main |
 | [Seguridad](SECURITY.md) | Exclusiones, revisión de secretos y pendientes antes de desplegar |
@@ -25,8 +26,8 @@ Este repositorio reúne el código disponible y la documentación de su estado r
 Requiere Git, Node.js 24 con npm y Docker Desktop iniciado en modo contenedores Linux. Desde PowerShell, Bash o una terminal equivalente:
 
 ```sh
-git clone https://github.com/JaqzO8/PAE-Software.git
-cd PAE-Software
+git clone https://github.com/JaqzO8/Final-Cloud-PAE.git
+cd Final-Cloud-PAE
 node scripts/setup-local.mjs
 docker compose config --quiet
 docker compose up --build -d
@@ -43,19 +44,20 @@ La configuración inicial es de **desarrollo local**; los puertos publicados se 
 | --- | --- |
 | `main` | Entregas revisadas; rama predeterminada |
 | `develop` | Integración del equipo |
-| `Jose_Queshyac` | Trabajo de José |
+| `José_Queshyac` | Trabajo de José; nombre solicitado originalmente |
+| `Jose_Queshyac` | Rama conservada del repositorio de origen, sin acento |
 | `Amelia_Mauricio` | Trabajo de Amelia |
 | `Richard_Estela` | Trabajo de Richard |
 | `Juan_Rengifo` | Trabajo de Juan |
 
-Las ramas personales nacen de la misma base que `develop`. Conserva exactamente el acento de `Jose_Queshyac` y los guiones bajos. La creación de una rama no concede acceso a GitHub: los colaboradores necesitan una invitación independiente del propietario.
+Se conservan las ramas y su historial del repositorio de origen. `José_Queshyac` parte de la misma revisión que `Jose_Queshyac`; son nombres distintos. Conserva los acentos y guiones bajos de la rama elegida. La creación de una rama no concede acceso a GitHub: los colaboradores necesitan una invitación independiente del propietario.
 
 ## Publicación segura
 
-El repositorio empieza con un historial nuevo para no trasladar secretos o residuos de commits anteriores. La carpeta original y su remoto se conservan. No se publica automáticamente una aplicación al hacer push: GitHub Pages se ejecuta de forma manual y solo aloja el frontend.
+Esta copia pública conserva el historial Git y todas las ramas de [PAE-Software](https://github.com/JaqzO8/PAE-Software), cuya base inicial fue preparada sin archivos privados. Se revisaron los archivos y el historial antes de copiarlo. Solo se incluye `.env.example`: cada instalación genera su propio `.env` con secretos aleatorios. No se publica automáticamente una aplicación al hacer push: GitHub Pages se ejecuta de forma manual y solo aloja el frontend.
 
 ## Estado de la entrega
 
 Los documentos nuevos usan como fuente principal un archivo de "Documentación de Requisitos" y contrastan sus objetivos con el código disponible. Las auditorías anteriores se conservan como antecedentes y no sustituyen esta evaluación. Los términos «aprobado» o «completo» que aparecen en esos antecedentes no certifican aceptación ni seguridad de producción.
 
-El nombre del producto es **PAE (Plataforma de Apoyo Estudiantil)**; el identificador del repositorio es `PAE-Software`. No se añade una licencia global nueva sin una decisión del equipo; las licencias de dependencias y los metadatos existentes de paquetes deben revisarse antes de distribuir el producto a terceros.
+El nombre del producto es **PAE (Plataforma de Apoyo Estudiantil)**; el identificador de esta copia es `Final-Cloud-PAE`. No se añade una licencia global nueva sin una decisión del equipo; las licencias de dependencias y los metadatos existentes de paquetes deben revisarse antes de distribuir el producto a terceros.

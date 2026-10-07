@@ -122,10 +122,10 @@ La publicación añade exclusiones de datos privados, contextos Docker protegido
 | P2 | Experiencia educativa | Rutas adaptativas, foros completos, juegos de lectura, descanso y encuestas |
 | P2 | Accesibilidad y usabilidad | Pruebas con usuarios, lectores de pantalla, navegadores y dispositivos |
 
-No se asignan fechas, costos ni responsables funcionales que no hayan sido acordados. Las cuatro ramas personales permiten repartir estas entregas sin deducir especialidades de los nombres del equipo.
+No se asignan fechas, costos ni responsables funcionales que no hayan sido acordados. Actualmente se mantienen `main`, `develop` y la rama personal `Jose_Queshyac`.
 
 ## Contenido de la publicación
 
-El nuevo repositorio conserva los fuentes y cambios locales disponibles, esquemas iniciales, pruebas, scripts y documentación útil. Añade resumen, matriz, historias, arquitectura, instalación, configuración, validación y normas de contribución. Comienza con un historial nuevo y ramas main, develop, José_Queshyac, Amelia_Mauricio, Richard_Estela y Juan_Rengifo.
+El nuevo repositorio conserva los fuentes y cambios locales disponibles, esquemas iniciales, pruebas, scripts y documentación útil. Añade resumen, matriz, historias, arquitectura, instalación, configuración, validación y normas de contribución. Final-Cloud-PAE conserva el historial de PAE-Software y mantiene únicamente las ramas `main`, `develop` y `Jose_Queshyac`.
 
 Los documentos originales, extracciones completas con contexto personal, archivos cargados por usuarios, bases, secretos, dependencias instaladas, coberturas, capturas y reportes de trabajo quedan en el entorno original. Se conserva su información funcional pertinente mediante la documentación de requisitos, sin incorporar datos operativos reales al repositorio. La copia no altera el remoto ni la historia del proyecto anterior.

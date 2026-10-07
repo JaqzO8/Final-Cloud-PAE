@@ -44,17 +44,13 @@ La configuración inicial es de **desarrollo local**; los puertos publicados se 
 | --- | --- |
 | `main` | Entregas revisadas; rama predeterminada |
 | `develop` | Integración del equipo |
-| `José_Queshyac` | Trabajo de José; nombre solicitado originalmente |
-| `Jose_Queshyac` | Rama conservada del repositorio de origen, sin acento |
-| `Amelia_Mauricio` | Trabajo de Amelia |
-| `Richard_Estela` | Trabajo de Richard |
-| `Juan_Rengifo` | Trabajo de Juan |
+| `Jose_Queshyac` | Desarrollo personal de José |
 
-Se conservan las ramas y su historial del repositorio de origen. `José_Queshyac` parte de la misma revisión que `Jose_Queshyac`; son nombres distintos. Conserva los acentos y guiones bajos de la rama elegida. La creación de una rama no concede acceso a GitHub: los colaboradores necesitan una invitación independiente del propietario.
+Las ramas activas son `main`, `develop` y `Jose_Queshyac`. El nombre de la rama personal se escribe sin tilde. La creación de una rama no concede acceso a GitHub: los colaboradores necesitan una invitación independiente del propietario.
 
 ## Publicación segura
 
-Esta copia pública conserva el historial Git y todas las ramas de [PAE-Software](https://github.com/JaqzO8/PAE-Software), cuya base inicial fue preparada sin archivos privados. Se revisaron los archivos y el historial antes de copiarlo. Solo se incluye `.env.example`: cada instalación genera su propio `.env` con secretos aleatorios. No se publica automáticamente una aplicación al hacer push: GitHub Pages se ejecuta de forma manual y solo aloja el frontend.
+Esta copia pública conserva el historial Git de [PAE-Software](https://github.com/JaqzO8/PAE-Software), cuya base inicial fue preparada sin archivos privados. Se revisaron los archivos y el historial antes de copiarlo. Solo se incluye `.env.example`: cada instalación genera su propio `.env` con secretos aleatorios. No se publica automáticamente una aplicación al hacer push: GitHub Pages se ejecuta de forma manual y solo aloja el frontend.
 
 ## Estado de la entrega
 

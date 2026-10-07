@@ -8,27 +8,23 @@ El equipo integra cambios mediante pull requests a `develop` y prepara entregas 
 | --- | --- |
 | main | Base de entregas revisadas, predeterminada |
 | develop | Integración conjunta y pruebas |
-| José_Queshyac | Desarrollo personal de José |
-| Jose_Queshyac | Rama original conservada, sin acento |
-| Amelia_Mauricio | Desarrollo personal de Amelia |
-| Richard_Estela | Desarrollo personal de Richard |
-| Juan_Rengifo | Desarrollo personal de Juan |
+| Jose_Queshyac | Desarrollo personal de José |
 
-Los nombres son exactos; el acento de José forma parte del nombre de la rama. Cada integrante necesita acceso al repositorio y su propia identidad de Git. No compartan cuentas ni tokens.
+Las únicas ramas activas son `main`, `develop` y `Jose_Queshyac`; esta última se escribe sin tilde. Cada integrante necesita acceso al repositorio y su propia identidad de Git. No compartan cuentas ni tokens.
 
 ## Flujo de trabajo
 
-Ejemplo para José; los demás sustituyen su rama:
+Flujo de trabajo para la rama personal de José:
 
 ```sh
 git clone https://github.com/JaqzO8/Final-Cloud-PAE.git
 cd Final-Cloud-PAE
 git fetch origin
-git switch --track origin/José_Queshyac
+git switch --track origin/Jose_Queshyac
 git merge origin/develop
 ```
 
-Si la rama ya existe localmente, utiliza `git switch José_Queshyac`. Resuelve conflictos comprobando el comportamiento de ambos cambios; no sobrescribas archivos completos para evitarlos.
+Si la rama ya existe localmente, utiliza `git switch Jose_Queshyac`. Resuelve conflictos comprobando el comportamiento de ambos cambios; no sobrescribas archivos completos para evitarlos.
 
 ```sh
 git status --short
@@ -36,7 +32,7 @@ git add <archivos-del-cambio>
 node scripts/check-repository-safety.mjs --staged
 git diff --cached
 git commit -m "feat(contenido): permite compartir repositorios RQ15"
-git push -u origin José_Queshyac
+git push -u origin Jose_Queshyac
 ```
 
 Crea un pull request con base `develop`, describe problema y resultado, RQ/HU por módulo, pruebas y limitaciones. Tras revisión y controles correctos, integra el cambio. Actualiza la rama personal con `origin/develop` antes del siguiente trabajo. Para una entrega, abre un pull request de `develop` a `main` y valida el recorrido integrado.
